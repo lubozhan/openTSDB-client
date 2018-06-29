@@ -1,17 +1,17 @@
 A Simple OpenTSDB Client
 ====================
 
-The OpenTSDB client is a Java library that simply implements the api for  sending metrics and querying the OpenTSDB server.
+The OpenTSDB client is a Java library that simply implements the api for sending metrics and querying the OpenTSDB server.
 
 **NOTE** This project only implements the synchronized http api for /api/put? and /api/query, please feel free to fork and push a implementation pr 
-if you like.
+for other api if you like.
 
 ## Sending Metrics
 
 Sending metrics is done by using the MetricBuilder. You simply add a metric, the tags associated with the metric, and
 the data points.
 
-	HttpClient client = new HttpClientImpl("http://localhost:4242");
+    TSDBClient client = new TSDBClient("http://localhost:4242");
 
     MetricBuilder builder = MetricBuilder.getInstance();
 
