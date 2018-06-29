@@ -1,0 +1,1 @@
+[{"metric":"metric1","value":30,"timestamp":1530247281,"tags":{"tag1":"tab1value","tag2":"tab2value"}},{"metric":"metric2","value":232.34,"timestamp":1530247282,"tags":{"tag3":"tab3value"}}]
