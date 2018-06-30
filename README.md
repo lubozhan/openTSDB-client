@@ -34,7 +34,7 @@ the data points.
 ## Query Data Point
 Probably the most useful endpoint in the API, /api/query enables extracting data from the storage system in various 
 formats determined by the serializer selected. Queries can be submitted via the 1.0 query string format or body content.
-You can simply use the below api to query data.
+You can simply use the below api to query data.(More details see http://opentsdb.net/docs/build/html/api_http/query/index.html)
 
     TSDBClient client = new TSDBClient("http://localhost:4242");
 
